@@ -1,3 +1,6 @@
+// Minimum Loss
+// https://www.hackerrank.com/challenges/minimum-loss/problem
+
 function minimumLoss(price) {
     // Write your code here
     const priceWithIndices = price.map((value, index) => [value, index]);
